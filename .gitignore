@@ -1,0 +1,18 @@
+# ─── Node ───────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ─── Secrets (NEVER commit these) ───────────────────────
+backend/.env
+backend/service-account-key.json
+
+# ─── Build output ────────────────────────────────────────
+frontend/dist/
+
+# ─── Temp / dev scripts ──────────────────────────────────
+backend/inspect-agent.js
+backend/verify-agents.js
+
+# ─── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
